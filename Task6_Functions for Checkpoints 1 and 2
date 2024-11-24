@@ -1,3 +1,4 @@
+'''
 Create the following two functions:
 
 Use the appropriate lines of codes from Task 1-2 to create the following function: 
@@ -7,6 +8,9 @@ Use the appropriate lines of codes from Task 3 to create the following function:
 visualise_board that takes in a nested list board and a position (in the form of a [row, column] list or None). 
 The function prints the board, marking the specified position with an asterisk *.
 However, should the position be None, the board is printed without any asterisks. The original board should not be modified.
+'''
+
+
 def check_character_category(name):
     vowel_count=0
     for each_char in name:
